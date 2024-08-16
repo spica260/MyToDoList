@@ -6,6 +6,12 @@ function App() {
   return (
     <>
       <HeaderNav />
+
+      <h2 className='tittle'>My Todo List</h2>
+
+      <section className='col1'></section>
+      <section className='col2'></section>
+
       <Footer />
     </>
   );
