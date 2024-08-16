@@ -53,6 +53,62 @@ header {
     color: white;
 }
 
+/* Body */
+.tittle {
+    margin: 50px auto 40px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.task-button {
+    width: 100px;
+    height: 30px;
+    margin: 5px 0;
+    background-color: #457B9D;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.task-button:hover {
+    background-color: #6c9ebd;
+}
+
+/* contact section */
+.form {
+    width: 500px;
+    height: 400px;
+    background-color: #eff9f9;
+    margin: 25px auto;
+    padding: 35px;
+}
+  
+.form-row {
+    text-align: center;
+    padding: 10px;
+}
+  
+.text-input {
+    height: 40px;
+    padding: 5px 15px;
+    border: none;
+}
+  
+.area-input {
+    height: auto;
+    max-width: 450px;
+    max-height: 100px;
+    padding: 5px 15px;
+    border: none;
+}
+  
+
 /* Footer */
 .credits {
     text-align: center;
