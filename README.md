@@ -14,6 +14,13 @@ Build with React
 
 • Javascipt
 
+## Components
+• Header Navigation
+• Footer
+• New Task
+• Update Task
+• Todo List Section
+
 
 
 ## For future improvements
