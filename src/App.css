@@ -90,9 +90,9 @@ header {
     border-bottom: 1px solid #d8d8d8;
 }
   
-  .new-task li:last-child {
+.new-task li:last-child {
     border: none;
-  }
+}
   
 .new-task li span {
       overflow: hidden;
@@ -122,8 +122,8 @@ header {
   
 .task-add-field {
     width: 260px;
-    height: 30px;
-    padding: 15px 10px;
+    height: 25px;
+    padding: 5px;
     display: flex;
 }
   
@@ -146,7 +146,7 @@ header {
 .task-update {
     width: 100%;
     height: 25px;
-    padding: 20px 10px;
+    padding: 10px;
     font-weight: bold;
     text-transform: capitalize;
     background-color: #eff9f9;
@@ -189,7 +189,7 @@ header {
     color: #457B9D;
     font-weight: bold;
     text-align: center;
-    border: #457B9D 6px solid;
+    border: #457B9D 4px solid;
     margin: 8px 0;
     padding: 10px 5px;
     user-select: none;
@@ -223,8 +223,9 @@ header {
 }
   
 .area-input {
+    font-family: Helvetica, sans-serif;
     height: auto;
-    max-width: 410px;
+    max-width: 450px;
     max-height: 100px;
     padding: 5px 15px;
     border: none;
