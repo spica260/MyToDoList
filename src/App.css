@@ -2,7 +2,7 @@ h1, h2 {
     font-family: 'Lilita One', sans-serif;
     text-align: center;
 }
-
+  
 .btn {
     text-decoration: none;
     color: black;
@@ -52,12 +52,12 @@ header {
 .nav-sec li a {
     color: white;
 }
-
+  
 /* Body */
 .tittle {
     margin: 50px auto 40px;
 }
-
+  
 .col1, .col2 {
     display: inline-table;
     width: 300px;
@@ -65,13 +65,68 @@ header {
     margin: 5px 15px;
     padding: 15px 20px;
 }
-
+  
+/* Todo List Section */
 .form-row {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
-
+  
+.new-task {
+    padding: 5px 10px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+}
+  
+.new-task li {
+    padding-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    border-bottom: 1px solid #d8d8d8;
+}
+  
+  .new-task li:last-child {
+    border: none;
+  }
+  
+.new-task li span {
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+}
+  
+.check {
+      width: 20px;
+      height: 20px;
+    background-color: white;
+      border: 2px solid #191919;
+    color: rgba(255, 255, 255, 0);
+      cursor: pointer;
+}
+  
+.check.active {
+    color: green;
+  }
+  
+.new-task li form {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+}
+  
+.task-add-field {
+    width: 260px;
+    height: 30px;
+    padding: 15px 10px;
+    display: flex;
+}
+  
 .task-button {
     width: 100px;
     height: 30px;
@@ -83,11 +138,70 @@ header {
     cursor: pointer;
     user-select: none;
 }
-  
+
 .task-button:hover {
     background-color: #6c9ebd;
 }
+  
+.task-update {
+    width: 100%;
+    height: 25px;
+    padding: 20px 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #eff9f9;
+    border: none;
+}
 
+.text-decoration-dashed {
+      text-decoration: line-through;
+}
+  
+.remove {
+    font-size: 1.5rem;
+    color: #e63946;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+  
+.remove:hover {
+    color: #bf1927 ;
+}
+  
+/* Filter Section */
+.col2 {
+    text-align: left;
+}
+  
+.filter-heading {
+    color: #e63946;
+    text-align: left;
+    padding: 15px 5px;
+}
+  
+.filter-sec {
+    margin: 15px 5px;
+}
+  
+.filter-text {
+    width: 180px;
+    color: #457B9D;
+    font-weight: bold;
+    text-align: center;
+    border: #457B9D 6px solid;
+    margin: 8px 0;
+    padding: 10px 5px;
+    user-select: none;
+}
+  
+.filter-no {
+    color: #e63946;
+    font-weight: 900;
+    font-size: 1.2rem;
+    user-select: none;
+}
+  
 /* contact section */
 .form {
     width: 500px;
@@ -110,13 +224,12 @@ header {
   
 .area-input {
     height: auto;
-    max-width: 450px;
+    max-width: 410px;
     max-height: 100px;
     padding: 5px 15px;
     border: none;
 }
   
-
 /* Footer */
 .credits {
     text-align: center;
