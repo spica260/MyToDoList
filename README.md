@@ -24,12 +24,14 @@ Build with React
 
 
 ## For future improvements
-
+• Edit current task.
+• Add time reminders to every task.
+• Recuperate deleted tasks.
 
 
 ## Github Pages
 
-[My ToDo List]()
+[My ToDo List](https://spica260.github.io/MyToDoList)
 
 
 # Project by
