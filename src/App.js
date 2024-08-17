@@ -2,8 +2,8 @@ import React from 'react'
 import './App.css'
 import HeaderNav from './components/HeaderNav'
 import Footer from './components/Footer'
-import { TodoListSection } from './componets/TodoListSection'
-import { AddTask } from './componets/AddTask'
+import { TodoListSection } from './components/TodoListSection'
+import { AddTask } from './components/AddTask'
 import { TodoHook } from './hooks/todoHook'
 
 
