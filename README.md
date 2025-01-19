@@ -1,4 +1,4 @@
-# Task Management App | Project 03
+# Task Management App
 My ToDo List
 
 ## Description
@@ -13,20 +13,6 @@ Build with React
 • CSS
 
 • Javascipt
-
-## Components
-• Header Navigation
-• Footer
-• New Task
-• Update Task
-• Todo List Section
-
-
-
-## For future improvements
-• Edit current task.
-• Add time reminders to every task.
-• Recuperate deleted tasks.
 
 
 ## Github Pages
